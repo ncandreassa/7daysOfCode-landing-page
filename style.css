@@ -57,3 +57,35 @@ body {
     color: var(--branco);
     border-radius: 8px;
 }
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+   
+}
+
+.sobre__titulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin: 0px;
+}
+
+.sobre__descricao {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 24px 0;
+}
+
+.sobre__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    text-align: center;
+    line-height: 30px;
+    margin: 0px;
+    width: 792px;
+    height: 83px;
+}
